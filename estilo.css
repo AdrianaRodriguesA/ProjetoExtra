@@ -1,0 +1,105 @@
+*{
+    background-color: rgb(219, 198, 127);
+    color: slateblue;
+    font-family: cursive;
+    width: 100%;
+    margin: 0px 0px;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 0 #b8bea8;
+}
+header{ text-align: center;}
+
+img{ border-radius: 10px;
+    width: 100%;
+}
+
+h1{
+    background-color: rgb(166, 166, 168);
+    border: solid cornsilk;
+    margin: 40px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 70px;
+    align-items: center;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+h3{
+    text-align: center;
+    padding: 0px 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#mulher{
+    display: flex;
+    height: 280px;
+}
+
+#mulher .texto{
+    width: 70%;
+    margin: 30px 40px;
+    margin-top: 50px;
+}
+
+#mulher .foto1{
+    width: 15%;
+    background-image: url(./img/1.png);
+    background-size: cover;
+    margin: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: solid cornsilk;
+}
+
+
+#mulher .foto2{
+    width: 45%;
+    background-image: url(./img/2.png);
+    background-size: cover;
+    margin: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: solid cornsilk;
+}
+
+#mulher .foto3{
+    width: 45%;
+    background-image: url(./img/3.png);
+    background-size: cover;
+    margin: 15px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid cornsilk;
+}
+
+#mulher .foto4{
+    width: 15%;
+    background-image: url(./img/4.png);
+    background-size: cover;
+    margin: 15px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid cornsilk;
+}
+
+#mulher .foto5{
+    width: 25%;
+    background-image: url(./img/5.png);
+    background-size: cover;
+    margin: 15px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid cornsilk;
+}
+
+footer{
+    margin-left: 20px;
+}
